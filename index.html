@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[✦]- Hash Studios</title>
+    <link rel="icon" href="https://media.discordapp.net/attachments/1226057699381215244/1337425762365476884/bocchi-the-rock-bocchi.gif" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --background-dark: #000;
+            --background-light: #f5f5f5;
+            --text-dark: #ccc;
+            --text-light: #333;
+            --button-dark: #444;
+            --button-light: #ddd;
+            --button-hover-dark: #555;
+            --button-hover-light: #bbb;
+        }
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: var(--background-dark);
+            color: var(--text-dark);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(90deg, #888, #444);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+        }
+        a {
+            text-decoration: none;
+            color: var(--text-dark);
+            background: var(--button-dark);
+            padding: 0.5rem 1.5rem;
+            border-radius: 5px;
+            transition: background 0.3s ease, transform 0.2s ease-in-out;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        a:hover {
+            background: var(--button-hover-dark);
+        }
+        button {
+            margin-top: 1rem;
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background: var(--button-dark);
+            color: var(--text-dark);
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: var(--button-hover-dark);
+        }
+        .light-mode {
+            background: var(--background-light);
+            color: var(--text-light);
+        }
+        .light-mode p {
+            color: var(--text-light);
+        }
+        .light-mode a, .light-mode button {
+            background: var(--button-light);
+            color: var(--text-light);
+        }
+        .light-mode a:hover, .light-mode button:hover {
+            background: var(--button-hover-light);
+        }
+    </style>
+</head>
+<body>
+    <img src="https://media.discordapp.net/attachments/1226057699381215244/1337424634919784448/hash.png?ex=67a76541&is=67a613c1&hm=c7e1642d86af11ad4e871b4bbc6cf5a403db8c85ab9de8c4cc173532c39b470f&=&format=webp&quality=lossless&width=441&height=441">
+    <h1>Hash Development</h1>
+    <p>Hash Studios [Est. 2021]</p>
+    <p>erm waht the sigma</p>
+    <audio src="https://k.top4top.io/m_3325lvlag1.mp3" autoplay loop></audio>
+    <a href="https://www.roblox.com/communities/35288840/Hash-Development-Studio#!/about" target="_blank">Roblox Group</a>
+    <a href="idk" target="_blank">Discord Server</a>
+    <footer>&copy; 2024 hashstudio. All rights reserved.</footer>
+
+
+    <button onclick="toggleMode()">Toggle Dark/Light Mode</button>
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle('light-mode');
+        }
+    </script>
+</body>
+</html>
